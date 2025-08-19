@@ -1,4 +1,5 @@
-센서코드#include <WiFi.h>
+//센서코드
+#include <WiFi.h>
 #include <HTTPClient.h>
 
 // 🟢 Wi-Fi 설정
