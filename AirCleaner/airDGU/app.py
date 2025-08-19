@@ -1,3 +1,4 @@
+#센서값 받아오기 flask서버 코드
 import requests
 from flask import Flask, request, jsonify, render_template
 from flask_sqlalchemy import SQLAlchemy
