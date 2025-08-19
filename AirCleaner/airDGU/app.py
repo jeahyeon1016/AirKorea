@@ -8,7 +8,7 @@ from zoneinfo import ZoneInfo
 import threading
 import urllib.parse
 import time
-from naomkey.py import DONGUK_KEY
+from naomkey import DONGUK_KEY
 
 
 app = Flask(__name__)
