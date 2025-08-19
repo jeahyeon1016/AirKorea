@@ -1,4 +1,4 @@
-# app.py
+# 에어코리아 PM flask 서버 코드
 from flask import Flask, request, render_template, redirect, url_for, jsonify   # ← jsonify 추가
 import re
 import requests
