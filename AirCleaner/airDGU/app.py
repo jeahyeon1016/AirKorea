@@ -8,6 +8,8 @@ from zoneinfo import ZoneInfo
 import threading
 import urllib.parse
 import time
+from naomkey.py import DONGUK_KEY
+
 
 app = Flask(__name__)
 CORS(app)
@@ -40,7 +42,7 @@ def tag_kst(dt):
 
 # ===================== 외부(동국) API 설정 =====================
 DONGUK_API_URL = "http://144.24.86.225:8083/dongukSpeed"
-DONGUK_KEY = "6AhrGb8HFc7sNmg3B3hY8Fo3QvNa6HxoMG2K1YsbyAqagQ2Un5x3HTkuyt13pKD7n6vVFKZBjr2Fni4ZJBQyogKM8Htamtrb4y5H"
+# DONGUK_KEY는 naomkey.py에서 import
 
 def send_donguk_speed(speed: int):
     """speed: 0~3"""
