@@ -1,4 +1,4 @@
---센서값 저장 DB
+-- 센서값 저장 DB
 USE environmental_monitoring;
 
 CREATE TABLE sensor_data (
